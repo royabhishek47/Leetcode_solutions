@@ -1,5 +1,3 @@
-//Rotate image
-
 class Solution {
 public void rotate(int[][] arr) {
 int len = arr.length,temp;
