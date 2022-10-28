@@ -1,5 +1,3 @@
-//Group anagrams
-
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
 //       Initialization of Hashmap Key is type of String and Value is type of List<String
