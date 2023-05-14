@@ -1,9 +1,9 @@
+package TutorOps;
+
 import java.util.ArrayList;
 
 public class Rivers {
 
-    // static int rows = 20;
-    // static int cols =
     public static int rivercheck(int i, int j, int rivers[][]) {
         if (i > -1 && i < 5 && j < 5 && j > -1 && rivers[i][j] == 1) {
             rivers[i][j] = 2;
@@ -32,8 +32,7 @@ public class Rivers {
                 }
             }
         }
-        int n = riversize.size();
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < riversize.size(); i++) {
             if (riversize.get(i) == 0) {
                 continue;
             } else
